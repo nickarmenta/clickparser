@@ -128,7 +128,7 @@ def process_uploaded_files(uploaded_files):
 def main():
     # File uploader
     uploaded_files = st.file_uploader(
-        "Upload CSV files to process",
+        "Upload Constant Contact CSV files to process",
         type="csv",
         accept_multiple_files=True
     )
